@@ -1,10 +1,3 @@
-#-----------------------------------------------------------------------------------------#
-#Written by Dimitris Sinanis on 05/11/2017.
-#This program checks the validity of a credit card.
-#Learn how this program works here : http://www.creditcard-validnumber.com/en/creditcard_digits
-#Python version: 3.6.4
-#-----------------------------------------------------------------------------------------#
-"=================================The_code_begins_here===================================="
 def Luhn_algorithm(credit_card):
     #Learn what is Luhn algorithm : https://en.wikipedia.org/wiki/Luhn_algorithm
     cc0=credit_card[::-1]
@@ -80,6 +73,3 @@ credit_card=str(input("Give the credit card number : "))
 main()
 print("")
 input("Press enter to close.")
-"===========================================The_end=============================================="
-
-
